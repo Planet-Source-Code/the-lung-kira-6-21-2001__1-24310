@@ -1,0 +1,102 @@
+[Root]
+Most Recent Package=Kira
+
+
+[Package|Kira|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\Administrator\Desktop\Package
+
+[Package|Kira|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Kira|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Kira|Files Found]
+
+[Package|Kira|Files Released]
+
+[Package|Kira|Missing Dependency Information]
+C:\WIN\system32\sfc.dll=
+C:\WIN\system32\iphlpapi.dll=
+C:\WIN\system32\kira_ext.dll=
+C:\WIN\system32\ws2_32.dll=
+
+[Package|Kira|Out-of-Date Dependency Information]
+
+[Package|Kira|Files Added]
+
+[Package|Kira|Files Removed]
+c:\win\system32\sfc.dll=
+c:\win\system32\ws2_32.dll=
+c:\win\system32\iphlpapi.dll=
+
+[Package|Kira|Files In Project]
+C:\WIN\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WIN\system32\ws2_32.dll=No
+C:\WIN\system32\kira_ext.dll=Yes
+C:\WIN\system32\iphlpapi.dll=No
+C:\WIN\system32\sfc.dll=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WIN\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Documents and Settings\Administrator\Desktop\Project\Package\Kira.exe=Yes
+
+[Package|Kira|Configure Registry Files]
+Applicable=No
+
+[Package|Kira|Configure Remote Servers]
+Applicable=No
+
+[Package|Kira|Install Locations]
+C:\Documents and Settings\Administrator\Desktop\Kira.exe=$(AppPath)
+C:\WIN\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WIN\system32\kira_ext.dll=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WIN\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\Administrator\Desktop\Project\Package\Kira.exe=$(AppPath)
+
+[Package|Kira|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Administrator\Desktop\Kira.exe=No
+C:\Documents and Settings\Administrator\Desktop\Project\Package\Kira.exe=No
+
+[Package|Kira|Distribution]
+Type=single
+Size=
+Title=Kira
+
+[Package|Kira|Package]
+PackageFolder=C:\Documents and Settings\Administrator\Desktop\Package
+ProjectFolder=C:\Documents and Settings\Administrator\Desktop\Project
+ServerSideCab=
+File1=C:\Documents and Settings\Administrator\Desktop\Package\setup.exe
+File2=C:\Documents and Settings\Administrator\Desktop\Package\Setup.Lst
+File3=C:\Documents and Settings\Administrator\Desktop\Package\Kira.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Kira|IconGroups]
+Group0=$(Programs)
+PrivateGroup0=-1
+Parent0=
+
+[Package|Kira|$(Programs)]
+Icon1=Kira.exe
+Title1=Kira
+StartIn1=$(AppPath)
+Key1=Icon3
